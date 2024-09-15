@@ -146,7 +146,7 @@ a {
 
 main {
     background: rgba(255, 179, 14, 1);
-    
+
 }
 
 
@@ -261,13 +261,81 @@ h1 {
     max-width: 500px;
     width: 100%;
     margin-top: 40px;
-    img{
-        max-width: 500px;
+
+    img {
+        width: 40%;
         width: 100%;
-    //     border-top-left-radius: 50%;
-    //     border-top-right-radius: 50%;
+        //     border-top-left-radius: 50%;
+        //     border-top-right-radius: 50%;
     }
 }
+
+
+
+
+.card__wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
+    
+    .card {
+        width: 320px;
+        height: 415px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+ 
+
+    h6 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26.4px;
+        text-align: left;
+        color: rgba(66, 66, 66, 1);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        width: 60%;
+        padding: 8px;
+        gap: 10px;
+        border-radius: 8px;
+        
+        background: rgba(241, 114, 40, 0.2);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1950px) {
+    .card__wrapper{
+        flex-wrap: wrap;
+        max-width: 100%;
+        width: 100%;
+       
+    }
+    
+}
+
+
+
+
 
 @media screen and (max-width:1340px) {
     .main__container {
@@ -301,8 +369,8 @@ h1 {
     .delivery__form {
         width: 100%;
     }
- 
-  .pan >  img{
+
+    .pan>img {
         // width: 500px;
     }
 }
@@ -310,6 +378,12 @@ h1 {
 @media screen and (max-width:640px) {
     #search-btn {
         display: none;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .main__disc{
+        font-size: 15px;
     }
 
     .search__icon,
@@ -354,11 +428,13 @@ h1 {
         }
     }
 }
-@media screen and (max-width:526px){
-    .pan > img{
+
+@media screen and (max-width:526px) {
+    .pan>img {
         // width: 320px;
     }
 }
+
 @media screen and (max-width:512px) {
     .send__email {
         flex-direction: column;
@@ -374,8 +450,9 @@ h1 {
     }
 
 }
+
 @media screen and (max-width:420px) {
-    .pan > img{
+    .pan>img {
         // width: 200px;
     }
 }
