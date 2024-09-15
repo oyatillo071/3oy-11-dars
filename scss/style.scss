@@ -278,7 +278,7 @@ h1 {
     align-items: center;
     margin-top: 100px;
     justify-content: space-between;
-    
+
     .card {
         width: 320px;
         height: 415px;
@@ -287,9 +287,11 @@ h1 {
     img {
         width: 100%;
         border-radius: 16px;
+        position: relative;
+
     }
 
- 
+
 
     h6 {
         font-size: 22px;
@@ -306,7 +308,7 @@ h1 {
         padding: 8px;
         gap: 10px;
         border-radius: 8px;
-        
+
         background: rgba(241, 114, 40, 0.2);
     }
 }
@@ -324,13 +326,13 @@ h1 {
 
 
 @media screen and (max-width:1950px) {
-    .card__wrapper{
+    .card__wrapper {
         flex-wrap: wrap;
         max-width: 100%;
         width: 100%;
-       
+
     }
-    
+
 }
 
 
@@ -379,10 +381,12 @@ h1 {
     #search-btn {
         display: none;
     }
-    h1{
+
+    h1 {
         font-size: 60px;
     }
-    .main__disc{
+
+    .main__disc {
         font-size: 15px;
     }
 
